@@ -87,4 +87,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Initialize app
   fetchActivities();
+
+  // Dark mode toggle
+  const darkModeToggle = document.getElementById("dark-mode-toggle");
+  darkModeToggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+    // Salvar preferência no localStorage
+    if (document.body.classList.contains("dark-mode")) {
+      localStorage.setItem("darkMode", "enabled");
+      darkModeToggle.textContent = "☀️";
+    } else {
+      localStorage.setItem("darkMode", "disabled");
+      darkModeToggle.textContent = "🌙";
+    }
+  });
+  // Carregar preferência do usuário
+  if (localStorage.getItem("darkMode") === "enabled") {
+    document.body.classList.add("dark-mode");
+    darkModeToggle.textContent = "☀️";
+  }
 });
