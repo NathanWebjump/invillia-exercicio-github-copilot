@@ -42,42 +42,42 @@ activities = {
     # Esportivas
     "Soccer Team": {
         "description": "Join the school soccer team and compete in local leagues",
-        "schedule": "Wednesdays, 4:00 PM - 6:00 PM",
-        "max_participants": 22,
+        "schedule": "Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 18,
         "participants": ["lucas@mergington.edu", "marco@mergington.edu"]
     },
     "Basketball Club": {
         "description": "Practice basketball and participate in tournaments",
         "schedule": "Mondays and Thursdays, 5:00 PM - 6:30 PM",
         "max_participants": 15,
-        "participants": ["ana@mergington.edu", "carla@mergington.edu"]
+        "participants": ["ana@mergington.edu", "carlos@mergington.edu"]
     },
     # Artísticas
     "Drama Club": {
         "description": "Act, direct, and produce school plays and performances",
         "schedule": "Tuesdays, 4:00 PM - 5:30 PM",
-        "max_participants": 18,
-        "participants": ["paulo@mergington.edu", "lara@mergington.edu"]
+        "max_participants": 20,
+        "participants": ["laura@mergington.edu", "felipe@mergington.edu"]
     },
     "Art Workshop": {
         "description": "Explore painting, drawing, and sculpture techniques",
         "schedule": "Fridays, 2:00 PM - 3:30 PM",
         "max_participants": 16,
-        "participants": ["juliana@mergington.edu", "bruno@mergington.edu"]
+        "participants": ["sofia@mergington.edu", "bruno@mergington.edu"]
     },
     # Intelectuais
     "Math Olympiad": {
-        "description": "Prepare for math competitions and solve challenging problems",
+        "description": "Prepare for math competitions and enhance problem-solving skills",
         "schedule": "Thursdays, 3:30 PM - 5:00 PM",
         "max_participants": 10,
-        "participants": ["renata@mergington.edu", "felipe@mergington.edu"]
+        "participants": ["alice@mergington.edu", "pedro@mergington.edu"]
     },
-    "Science Club": {
-        "description": "Conduct experiments and explore scientific concepts",
-        "schedule": "Wednesdays, 3:00 PM - 4:30 PM",
+    "Debate Team": {
+        "description": "Develop public speaking and argumentation skills",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
         "max_participants": 14,
-        "participants": ["marina@mergington.edu", "gustavo@mergington.edu"]
-    }
+        "participants": ["juliana@mergington.edu", "rafael@mergington.edu"]
+    },
 }
 
 
